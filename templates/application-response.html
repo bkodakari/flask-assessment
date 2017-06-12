@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Application Response</title>
+    <link rel="stylesheet" type="text/css" href='static/styles.css'>
+
+  </head>
+  <body style="background-color: lightgray">
+    <p id="response">
+      Thank you, {{ firstname }} {{ lastname }}, for applying to be a {{ position }}. Your minimum salary requirement is {{ "${:,.2f}".format(salary) }}.
+    </p>
+
+  </body>
+</html>
